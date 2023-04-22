@@ -1,0 +1,27 @@
+.chip {
+    display: inline-block;
+    background-color: var(--element-color);
+    color: var(--input-color);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 1px 20px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chip:hover {
+    background-color: var(--input-color);
+    color: var(--element-color);
+  }
+  
+  .chip:focus {
+    outline: none;
+  }
+  
+  .chip:active {
+    transform: translateY(1px);
+  }
+  

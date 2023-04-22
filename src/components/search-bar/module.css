@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  display: flex;
+  align-items: center;
+  background-color: var(--element-color);
+  color: var(--input-color);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 300px;
+  padding-left: 40px;
+}
+.search-bar input[type="text"] {
+  padding-left: 60px;
+  background-image: none;
+}
+.search-bar svg {
+  position: absolute;
+  left: 80px;
+  width: 18px;
+  height: 18px;
+}
+.search-bar input:focus {
+  outline: none;
+}
